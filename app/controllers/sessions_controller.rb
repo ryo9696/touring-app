@@ -17,11 +17,11 @@ class SessionsController < ApplicationController
         redirect_to root_url
       end
     else
-      flash.now[:danger] = 'Invalid email/password combination'
-      render 'new'
+       flash.now[:danger] = 'メールアドレスまたはパスワードが間違っています。'
+       render 'new'
     end
   end
-  
+    
   def destroy
     log_out if logged_in?
     redirect_to root_url
