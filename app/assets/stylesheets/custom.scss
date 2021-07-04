@@ -87,6 +87,14 @@ p {
   }
 }
 
+.bg-color {
+  background-color: brown;
+}
+
+.nav-color {
+  color: white;
+}
+
 /* footer */
 
 footer {
@@ -196,6 +204,10 @@ aside {
 
 .users.follow {
   padding: 0;
+}
+
+.posts-list {
+  text-align: center;
 }
 
 /* forms */
