@@ -1,24 +1,17 @@
-# README
+# Touring App
+_____________
+自分しか知らないツーリングスポットや絶景が見れるスポット、  
+峠道など共有できるサービスです。  
+また、ログイン機能やフォロー機能もあります。  
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+##作成した目的  
+私はよくツーリングに行くので、インターネットで調べてもヒットしないような、  
+ツーリングスポットや絶景スポットを共有したいと思い作成しました。  
 
-Things you may want to cover:
+##使用技術  
+・HTML/CSS  
+・Ruby 2.6.3  
+・Ruby on Rails 6.0.3  
+・SQLite 1.4.1  
+・Bootstrap 5.0.1  
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
